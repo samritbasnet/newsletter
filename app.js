@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         const email = document.getElementById('email').value;
         confirmedEmail.textContent = email;
-        form.style.display = 'none';
         successMessage.style.display = 'block';
 
 
